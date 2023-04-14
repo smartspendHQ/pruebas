@@ -1,0 +1,374 @@
+<html>
+  <head>
+    <script src="cambio.js"></script>
+    <link rel="stylesheet" href="tablas.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Data</title>
+    <style>
+*
+        {
+            margin:0;
+
+        }
+        #particles-js
+        {
+            background-color: rgb(255, 255, 255);
+            width: 100%;
+            height: 100%;
+            top: 0;
+            z-index:-1;
+            position: absolute;
+
+        }
+
+        #tasma{
+            color:rgba(255, 255, 255, 0.363);
+            text-align: center;
+        }
+
+
+      h1 { 
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        text-align: center; 
+      }
+      p {
+        text-align: center;
+        font-family:monospace;
+        border: 2px solid black;
+        padding: 10px;
+      }
+      
+      #btn {
+        display: block;
+        margin: auto;
+        font-family:monospace;
+      }
+      #logo {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        width: 50px;
+      }
+      
+      #logo-2 {
+      position: fixed;
+      top: 10px;
+      right: 0;
+      width: 50px;
+      height: 50px;
+    }
+
+    </style>
+  </head>
+
+  <body>
+    
+
+    <main id="btc">
+
+        <div>
+            <img id="logo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKr3DmUTRk6qQfrLQ3mxBTRjXoxdjNcQt8Ig&usqp=CAU">
+            <img id="logo-2" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiIsCg8rHM0PfP-EKqkMEGrmh0VOolvnMw9Q&usqp=CAU">
+      
+
+            <h1>Your Data</h1>
+            <br>
+            <br>
+            <p>ID = 4465</p>
+            <br>
+            <p id="privatekey">PRIVATE KEY: f04ef6f4cf7b4032d4166e13c2716d92c8e30a57290e8cb054d91bd844a5b478</p>
+            <br>
+            <p id="llaves">WIF: L5Gqd3UbPs9EnW42NNpPH8bBeePi1zWBqXetEqKooXcBp7u3M8Ph </p>
+            <br>
+            <br>
+    
+            
+            <style>
+
+              #privatekey{
+               text-decoration: underline;
+              }
+
+              #llaves{
+               text-decoration: underline;
+              }
+
+              
+            </style>
+
+<button id="btn" onclick="changeText()" style="background-color: black; color: white; border: 2px solid gray; width: 200px; height: 40px; border-radius: 10px;">Generate Key Funds</button>
+
+    <br>
+
+    <style>
+        #tasma {
+          display: block;
+          margin: auto;
+          text-align: center;
+        }
+      
+        #tasma button {
+          font-family:monospace;
+          background-color: black;
+          color: white; 
+         }
+
+
+        #paises {
+         font-family: monospace;
+         font-size: 14px;
+         border-radius: 2px;
+        }
+
+        #country
+        {
+          font-family: monospace;
+        }
+
+
+      </style>
+
+      <p id="paises"> Please Select you Country To Generated The Ticket Of Reclaim</p>
+
+<br>
+
+<select _ngcontent-sop-c173="" name="country" id="country" formcontrolname="country_name" placeholder="Country" required="" class="form-control mb-2 ng-pristine ng-invalid ng-touched" ng-reflect-name="country_name" ng-reflect-required="" ng-reflect-model="" ng-reflect-ng-class="[object Object]"><option _ngcontent-sop-c173="" value="" selected="" disabled=" " ng-reflect-value="">Select Country</option><option _ngcontent-sop-c173="" value="1: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Afghanistan (+93) </option><option _ngcontent-sop-c173="" value="2: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Albania (+355) </option><option _ngcontent-sop-c173="" value="3: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Algeria (+213) </option><option _ngcontent-sop-c173="" value="4: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Andorra (+376) </option><option _ngcontent-sop-c173="" value="5: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Angola (+244) </option><option _ngcontent-sop-c173="" value="6: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Antigua and Barbuda (+1-268) </option><option _ngcontent-sop-c173="" value="7: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Argentina (+54) </option><option _ngcontent-sop-c173="" value="8: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Armenia (+374) </option><option _ngcontent-sop-c173="" value="9: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Australia (+61) </option><option _ngcontent-sop-c173="" value="10: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Austria (+43) </option><option _ngcontent-sop-c173="" value="11: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Azerbaijan (+994) </option><option _ngcontent-sop-c173="" value="12: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Bahamas The (+1-242) </option><option _ngcontent-sop-c173="" value="13: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Bahrain (+973) </option><option _ngcontent-sop-c173="" value="14: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Bangladesh (+880) </option><option _ngcontent-sop-c173="" value="15: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Barbados (+1-246) </option><option _ngcontent-sop-c173="" value="16: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Belarus (+375) </option><option _ngcontent-sop-c173="" value="17: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Belgium (+32) </option><option _ngcontent-sop-c173="" value="18: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Belize (+501) </option><option _ngcontent-sop-c173="" value="19: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Benin (+229) </option><option _ngcontent-sop-c173="" value="20: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Bhutan (+975) </option><option _ngcontent-sop-c173="" value="21: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Bolivia (+591) </option><option _ngcontent-sop-c173="" value="22: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Bosnia and Herzegovina (+387) </option><option _ngcontent-sop-c173="" value="23: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Botswana (+267) </option><option _ngcontent-sop-c173="" value="24: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Brazil (+55) </option><option _ngcontent-sop-c173="" value="25: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Brunei (+673) </option><option _ngcontent-sop-c173="" value="26: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Bulgaria (+359) </option><option _ngcontent-sop-c173="" value="27: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Burkina Faso (+226) </option><option _ngcontent-sop-c173="" value="28: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Burundi (+257) </option><option _ngcontent-sop-c173="" value="29: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Cambodia (+855) </option><option _ngcontent-sop-c173="" value="30: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Cameroon (+237) </option><option _ngcontent-sop-c173="" value="31: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Canada (+1) </option><option _ngcontent-sop-c173="" value="32: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Cape Verde (+238) </option><option _ngcontent-sop-c173="" value="33: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Central African Republic (+236) </option><option _ngcontent-sop-c173="" value="34: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Chad (+235) </option><option _ngcontent-sop-c173="" value="35: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Chile (+56) </option><option _ngcontent-sop-c173="" value="36: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">China Peoples Republic of (+86) </option><option _ngcontent-sop-c173="" value="37: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Colombia (+57) </option><option _ngcontent-sop-c173="" value="38: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Comoros (+269) </option><option _ngcontent-sop-c173="" value="39: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Congo Democratic Republic of the (Congo ? Kinshasa) (+243) </option><option _ngcontent-sop-c173="" value="40: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Congo Republic of the (Congo ? Brazzaville) (+242) </option><option _ngcontent-sop-c173="" value="41: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Costa Rica (+506) </option><option _ngcontent-sop-c173="" value="42: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Cote dIvoire (Ivory Coast) (+225) </option><option _ngcontent-sop-c173="" value="43: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Croatia (+385) </option><option _ngcontent-sop-c173="" value="44: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Cuba (+53) </option><option _ngcontent-sop-c173="" value="45: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Cyprus (+357) </option><option _ngcontent-sop-c173="" value="46: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Czech Republic (+420) </option><option _ngcontent-sop-c173="" value="47: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Denmark (+45) </option><option _ngcontent-sop-c173="" value="48: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Djibouti (+253) </option><option _ngcontent-sop-c173="" value="49: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Dominica (+1-767) </option><option _ngcontent-sop-c173="" value="50: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Dominican Republic (+1-809 and 1-829) </option><option _ngcontent-sop-c173="" value="51: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Ecuador (+593) </option><option _ngcontent-sop-c173="" value="52: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Egypt (+20) </option><option _ngcontent-sop-c173="" value="53: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">El Salvador (+503) </option><option _ngcontent-sop-c173="" value="54: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Equatorial Guinea (+240) </option><option _ngcontent-sop-c173="" value="55: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Eritrea (+291) </option><option _ngcontent-sop-c173="" value="56: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Estonia (+372) </option><option _ngcontent-sop-c173="" value="57: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Ethiopia (+251) </option><option _ngcontent-sop-c173="" value="58: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Fiji (+679) </option><option _ngcontent-sop-c173="" value="59: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Finland (+358) </option><option _ngcontent-sop-c173="" value="60: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">France (+33) </option><option _ngcontent-sop-c173="" value="61: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Gabon (+241) </option><option _ngcontent-sop-c173="" value="62: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Gambia The (+220) </option><option _ngcontent-sop-c173="" value="63: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Georgia (+995) </option><option _ngcontent-sop-c173="" value="64: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Germany (+49) </option><option _ngcontent-sop-c173="" value="65: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Ghana (+233) </option><option _ngcontent-sop-c173="" value="66: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Greece (+30) </option><option _ngcontent-sop-c173="" value="67: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Grenada (+1-473) </option><option _ngcontent-sop-c173="" value="68: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Guatemala (+502) </option><option _ngcontent-sop-c173="" value="69: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Guinea (+224) </option><option _ngcontent-sop-c173="" value="70: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Guinea-Bissau (+245) </option><option _ngcontent-sop-c173="" value="71: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Guyana (+592) </option><option _ngcontent-sop-c173="" value="72: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Haiti (+509) </option><option _ngcontent-sop-c173="" value="73: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Honduras (+504) </option><option _ngcontent-sop-c173="" value="74: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Hungary (+36) </option><option _ngcontent-sop-c173="" value="75: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Iceland (+354) </option><option _ngcontent-sop-c173="" value="76: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">India (+91) </option><option _ngcontent-sop-c173="" value="77: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Indonesia (+62) </option><option _ngcontent-sop-c173="" value="78: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Iran (+98) </option><option _ngcontent-sop-c173="" value="79: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Iraq (+964) </option><option _ngcontent-sop-c173="" value="80: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Ireland (+353) </option><option _ngcontent-sop-c173="" value="81: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Israel (+972) </option><option _ngcontent-sop-c173="" value="82: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Italy (+39) </option><option _ngcontent-sop-c173="" value="83: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Jamaica (+1-876) </option><option _ngcontent-sop-c173="" value="84: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Japan (+81) </option><option _ngcontent-sop-c173="" value="85: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Jordan (+962) </option><option _ngcontent-sop-c173="" value="86: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Kazakhstan (+7) </option><option _ngcontent-sop-c173="" value="87: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Kenya (+254) </option><option _ngcontent-sop-c173="" value="88: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Kiribati (+686) </option><option _ngcontent-sop-c173="" value="89: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Korea Democratic Peoples Republic of (North Korea) (+850) </option><option _ngcontent-sop-c173="" value="90: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Korea Republic of  (South Korea) (+82) </option><option _ngcontent-sop-c173="" value="91: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Kuwait (+965) </option><option _ngcontent-sop-c173="" value="92: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Kyrgyzstan (+996) </option><option _ngcontent-sop-c173="" value="93: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Laos (+856) </option><option _ngcontent-sop-c173="" value="94: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Latvia (+371) </option><option _ngcontent-sop-c173="" value="95: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Lebanon (+961) </option><option _ngcontent-sop-c173="" value="96: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Lesotho (+266) </option><option _ngcontent-sop-c173="" value="97: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Liberia (+231) </option><option _ngcontent-sop-c173="" value="98: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Libya (+218) </option><option _ngcontent-sop-c173="" value="99: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Liechtenstein (+423) </option><option _ngcontent-sop-c173="" value="100: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Lithuania (+370) </option><option _ngcontent-sop-c173="" value="101: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Luxembourg (+352) </option><option _ngcontent-sop-c173="" value="102: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Macedonia (+389) </option><option _ngcontent-sop-c173="" value="103: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Madagascar (+261) </option><option _ngcontent-sop-c173="" value="104: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Malawi (+265) </option><option _ngcontent-sop-c173="" value="105: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Malaysia (+60) </option><option _ngcontent-sop-c173="" value="106: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Maldives (+960) </option><option _ngcontent-sop-c173="" value="107: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Mali (+223) </option><option _ngcontent-sop-c173="" value="108: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Malta (+356) </option><option _ngcontent-sop-c173="" value="109: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Marshall Islands (+692) </option><option _ngcontent-sop-c173="" value="110: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Mauritania (+222) </option><option _ngcontent-sop-c173="" value="111: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Mauritius (+230) </option><option _ngcontent-sop-c173="" value="112: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Mexico (+52) </option><option _ngcontent-sop-c173="" value="113: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Micronesia (+691) </option><option _ngcontent-sop-c173="" value="114: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Moldova (+373) </option><option _ngcontent-sop-c173="" value="115: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Monaco (+377) </option><option _ngcontent-sop-c173="" value="116: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Mongolia (+976) </option><option _ngcontent-sop-c173="" value="117: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Montenegro (+382) </option><option _ngcontent-sop-c173="" value="118: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Morocco (+212) </option><option _ngcontent-sop-c173="" value="119: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Mozambique (+258) </option><option _ngcontent-sop-c173="" value="120: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Myanmar (Burma) (+95) </option><option _ngcontent-sop-c173="" value="121: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Namibia (+264) </option><option _ngcontent-sop-c173="" value="122: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Nauru (+674) </option><option _ngcontent-sop-c173="" value="123: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Nepal (+977) </option><option _ngcontent-sop-c173="" value="124: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Netherlands (+31) </option><option _ngcontent-sop-c173="" value="125: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">New Zealand (+64) </option><option _ngcontent-sop-c173="" value="126: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Nicaragua (+505) </option><option _ngcontent-sop-c173="" value="127: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Niger (+227) </option><option _ngcontent-sop-c173="" value="128: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Nigeria (+234) </option><option _ngcontent-sop-c173="" value="129: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Norway (+47) </option><option _ngcontent-sop-c173="" value="130: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Oman (+968) </option><option _ngcontent-sop-c173="" value="131: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Pakistan (+92) </option><option _ngcontent-sop-c173="" value="132: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Palau (+680) </option><option _ngcontent-sop-c173="" value="133: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Panama (+507) </option><option _ngcontent-sop-c173="" value="134: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Papua New Guinea (+675) </option><option _ngcontent-sop-c173="" value="135: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Paraguay (+595) </option><option _ngcontent-sop-c173="" value="136: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Peru (+51) </option><option _ngcontent-sop-c173="" value="137: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Philippines (+63) </option><option _ngcontent-sop-c173="" value="138: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Poland (+48) </option><option _ngcontent-sop-c173="" value="139: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Portugal (+351) </option><option _ngcontent-sop-c173="" value="140: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Qatar (+974) </option><option _ngcontent-sop-c173="" value="141: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Romania (+40) </option><option _ngcontent-sop-c173="" value="142: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Russia (+7) </option><option _ngcontent-sop-c173="" value="143: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Rwanda (+250) </option><option _ngcontent-sop-c173="" value="144: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Saint Kitts and Nevis (+1-869) </option><option _ngcontent-sop-c173="" value="145: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Saint Lucia (+1-758) </option><option _ngcontent-sop-c173="" value="146: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Saint Vincent and the Grenadines (+1-784) </option><option _ngcontent-sop-c173="" value="147: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Samoa (+685) </option><option _ngcontent-sop-c173="" value="148: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">San Marino (+378) </option><option _ngcontent-sop-c173="" value="149: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Sao Tome and Principe (+239) </option><option _ngcontent-sop-c173="" value="150: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Saudi Arabia (+966) </option><option _ngcontent-sop-c173="" value="151: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Senegal (+221) </option><option _ngcontent-sop-c173="" value="152: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Serbia (+381) </option><option _ngcontent-sop-c173="" value="153: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Seychelles (+248) </option><option _ngcontent-sop-c173="" value="154: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Sierra Leone (+232) </option><option _ngcontent-sop-c173="" value="155: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Singapore (+65) </option><option _ngcontent-sop-c173="" value="156: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Slovakia (+421) </option><option _ngcontent-sop-c173="" value="157: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Slovenia (+386) </option><option _ngcontent-sop-c173="" value="158: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Solomon Islands (+677) </option><option _ngcontent-sop-c173="" value="159: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Somalia (+252) </option><option _ngcontent-sop-c173="" value="160: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">South Africa (+27) </option><option _ngcontent-sop-c173="" value="161: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Spain (+34) </option><option _ngcontent-sop-c173="" value="162: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Sri Lanka (+94) </option><option _ngcontent-sop-c173="" value="163: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Sudan (+249) </option><option _ngcontent-sop-c173="" value="164: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Suriname (+597) </option><option _ngcontent-sop-c173="" value="165: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Swaziland (+268) </option><option _ngcontent-sop-c173="" value="166: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Sweden (+46) </option><option _ngcontent-sop-c173="" value="167: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Switzerland (+41) </option><option _ngcontent-sop-c173="" value="168: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Syria (+963) </option><option _ngcontent-sop-c173="" value="169: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Tajikistan (+992) </option><option _ngcontent-sop-c173="" value="170: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Tanzania (+255) </option><option _ngcontent-sop-c173="" value="171: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Thailand (+66) </option><option _ngcontent-sop-c173="" value="172: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Timor-Leste (East Timor) (+670) </option><option _ngcontent-sop-c173="" value="173: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Togo (+228) </option><option _ngcontent-sop-c173="" value="174: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Tonga (+676) </option><option _ngcontent-sop-c173="" value="175: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Trinidad and Tobago (+1-868) </option><option _ngcontent-sop-c173="" value="176: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Tunisia (+216) </option><option _ngcontent-sop-c173="" value="177: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Turkey (+90) </option><option _ngcontent-sop-c173="" value="178: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Turkmenistan (+993) </option><option _ngcontent-sop-c173="" value="179: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Tuvalu (+688) </option><option _ngcontent-sop-c173="" value="180: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Uganda (+256) </option><option _ngcontent-sop-c173="" value="181: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Ukraine (+380) </option><option _ngcontent-sop-c173="" value="182: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">United Arab Emirates (+971) </option><option _ngcontent-sop-c173="" value="183: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">United Kingdom (+44) </option><option _ngcontent-sop-c173="" value="184: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">United States (+1) </option><option _ngcontent-sop-c173="" value="185: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Uruguay (+598) </option><option _ngcontent-sop-c173="" value="186: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Uzbekistan (+998) </option><option _ngcontent-sop-c173="" value="187: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Vanuatu (+678) </option><option _ngcontent-sop-c173="" value="188: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Vatican City (+379) </option><option _ngcontent-sop-c173="" value="189: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Venezuela (+58) </option><option _ngcontent-sop-c173="" value="190: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Viet Nam (+84) </option><option _ngcontent-sop-c173="" value="191: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Yemen (+967) </option><option _ngcontent-sop-c173="" value="192: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Zambia (+260) </option><option _ngcontent-sop-c173="" value="193: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Zimbabwe (+263) </option><option _ngcontent-sop-c173="" value="194: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">China Republic of (Taiwan) (+886) </option><option _ngcontent-sop-c173="" value="195: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Puerto Rico (+1-787 and 1-939) </option><option _ngcontent-sop-c173="" value="196: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Hong Kong (+852) </option><option _ngcontent-sop-c173="" value="197: Object" ng-reflect-ng-value="[object Object]" class="ng-star-inserted">Palestinian Territories (Gaza Strip and West Bank) (+970) </option><!--bindings={"ng-reflect-ng-for-of": "[object Object],[object Object"}--></select>
+
+<br>
+<br>
+
+
+      <div id="tasma">
+
+        <br>
+
+        <input type="text" id="ticket"></input>
+        <br>
+        <br>
+        <button id="generar-btn" onclick="generateTicket()" style="background-color: black; color: white; border: 2px solid gray; width: 182px; height: 40px; border-radius: 10px;">Generate claim ticket</button>
+
+
+      <script>
+        function generateTicket(){
+          let generarBtn = document.getElementById('generar-btn');
+          generarBtn.innerHTML = 'Generating...';
+          generarBtn.disabled = true;
+          
+          setTimeout(() => {
+            let ticket = '0';
+            for(let i = 0; i < 6; i++){
+              ticket += Math.floor(Math.random() * 10);
+            }
+      
+            document.getElementById('ticket').value = ticket;
+            generarBtn.innerHTML = 'Generated ticket';
+            generarBtn.disabled = false;
+          }, 4000);
+        }
+      </script> 
+    
+
+
+<style>
+
+  table {
+  border-collapse: collapse;
+  border: 1px solid black;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  font-family: monospace;
+  font-size: 14px;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+   }
+
+
+  h1 {
+    text-align: center;
+    font-family: fantasy;
+  }
+
+  th,
+  td {
+    border: 1px solid rgb(0, 0, 0);
+    padding: 10px;
+    text-align: center;
+  }
+
+  th {
+    background-color: #3b3b3b;
+    color: white;
+  }
+
+  tr:nth-child(even) {
+    background-color: #ffffff;
+  }
+
+
+
+#complete-cell {
+  color: rgb(0, 255, 0);
+}
+
+#complete-cell1 {
+  color: rgb(0, 255, 0);}
+
+#complete-cell2 {
+    color: rgb(27, 233, 27);
+}
+#complete-cell3 {
+    color: rgb(0, 255, 0);
+}
+
+#complete-cell {
+  color: rgb(0, 255, 0);
+}
+
+</style>
+<br>
+
+<h1>Your Transactions</h1>
+<br>
+  <table>
+    <thead>
+      <tr>
+        <th>Date</th>
+        <th>Amount</th>
+        <th>Status</th>
+        <th>TX</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td colspan="4" style="text-align: center;">
+          <h4 style="font-family: monospace;">No transactions</h4>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+
+    </main>
+
+
+    <div id="particles-js"> </div>
+
+    <script src ="particles.min.js"></script>
+
+    <script> 
+    particlesJS(
+        {
+  "particles": {
+    "number": {
+      "value": 135,
+      "density": {
+        "enable": true,
+        "value_area": 800
+      }
+    },
+    "color": {
+      "value": "#000000"
+    },
+    "shape": {
+      "type": "circle",
+      "stroke": {
+        "width": 2,
+        "color": "#000000"
+      },
+      "polygon": {
+        "nb_sides": 5
+      },
+      "image": {
+        "src": "img/github.svg",
+        "width": 100,
+        "height": 100
+      }
+    },
+    "opacity": {
+      "value": 0.5,
+      "random": false,
+      "anim": {
+        "enable": false,
+        "speed": 1,
+        "opacity_min": 0.1,
+        "sync": false
+      }
+    },
+    "size": {
+      "value": 3,
+      "random": true,
+      "anim": {
+        "enable": false,
+        "speed": 40,
+        "size_min": 0.1,
+        "sync": false
+      }
+    },
+    "line_linked": {
+      "enable": false,
+      "distance": 150,
+      "color": "#000000",
+      "opacity": 0.4,
+      "width": 1
+    },
+    "move": {
+      "enable": true,
+      "speed": 6,
+      "direction": "none",
+      "random": false,
+      "straight": false,
+      "out_mode": "out",
+      "bounce": false,
+      "attract": {
+        "enable": false,
+        "rotateX": 600,
+        "rotateY": 1200
+      }
+    }
+  },
+  "interactivity": {
+    "detect_on": "canvas",
+    "events": {
+      "onhover": {
+        "enable": false,
+        "mode": "repulse"
+      },
+      "onclick": {
+        "enable": true,
+        "mode": "push"
+      },
+      "resize": true
+    },
+    "modes": {
+      "grab": {
+        "distance": 400,
+        "line_linked": {
+          "opacity": 1
+        }
+      },
+      "bubble": {
+        "distance": 400,
+        "size": 40,
+        "duration": 2,
+        "opacity": 8,
+        "speed": 3
+      },
+      "repulse": {
+        "distance": 200,
+        "duration": 0.4
+      },
+      "push": {
+        "particles_nb": 4
+      },
+      "remove": {
+        "particles_nb": 2
+      }
+    }
+  },
+  "retina_detect": true
+}
+    )
+    </script>
+  </body>
+  </html>
